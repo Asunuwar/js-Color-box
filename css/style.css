@@ -1,0 +1,30 @@
+
+/* reset box sizing*/
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+
+
+.colorboxcontainer{
+  display: flex;
+  width: 50px;
+  height:auto;
+  background-color:grey;
+}
+
+#redbottom{
+  color:red;
+}
+
+
+
+/* # display Id */
+/* . means class */
