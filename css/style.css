@@ -15,15 +15,43 @@ html {
 
 .colorboxcontainer{
   display: flex;
-  width: 50px;
-  height:auto;
-  background-color:grey;
+  justify-content: center;
+  align-content: center;
 }
 
-#redbottom{
-  color:red;
+
+.selectorcolor{
+  width: 100px;
+  height: 100px;
+  margin: 10px;
 }
 
+.red{
+  background-color: red;
+}
+
+.green{
+  background-color: green;
+}
+.yellow{
+  background-color: yellow;
+}
+
+.boxlandingcontainer{
+    display: flex;
+    justify-content: center;
+
+}
+
+ #box{
+   display: flex;
+   justify-content: flex-start;
+   flex-wrap: wrap;
+   border: 1px solid black;
+   width: 900px;
+   height:400px;
+
+ }
 
 
 /* # display Id */
