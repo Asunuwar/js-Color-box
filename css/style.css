@@ -1,58 +1,44 @@
-
-/* reset box sizing*/
-html {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-*, *:before, *:after {
-  -webkit-box-sizing: inherit;
-  -moz-box-sizing: inherit;
-  box-sizing: inherit;
-}
-
-
-
-.colorboxcontainer{
-  display: flex;
+button {
   justify-content: center;
-  align-content: center;
-}
-
-
-.selectorcolor{
+  font-size: 30px;
   width: 100px;
   height: 100px;
-  margin: 10px;
 }
 
-.red{
+.red {
   background-color: red;
 }
 
-.green{
-  background-color: green;
+.orange {
+  background-color: orange;
 }
-.yellow{
+
+.yellow {
   background-color: yellow;
 }
 
-.boxlandingcontainer{
-    display: flex;
-    justify-content: center;
-
+.green {
+  background-color: green;
 }
 
- #box{
-   display: flex;
-   justify-content: flex-start;
-   flex-wrap: wrap;
-   border: 1px solid black;
-   width: 900px;
-   height:400px;
-
- }
+.box {
+  display: flex;
+  width: 100px;
+  height: 100px;
+  margin: 5px;
+}
 
 
-/* # display Id */
-/* . means class */
+.box-container.{
+  flex-wrap: wrap;
+  width: 900px;
+  height: 900px;
+  flex-wrap: wrap;
+  border: 1px solid black;
+}
+
+
+}
+.boxContainer {
+
+}
